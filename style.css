@@ -1,0 +1,582 @@
+@import url(./font/Sans\ IRANSans);
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url(font/Sans\ a4fran3.eot) format('eot');
+    src: url(font/Sans\ a4fran3.ttf) format('ttf');
+    src: url(font/Sans\ a4fran3.woff) format('woff');
+}
+
+* {
+    margin: auto;
+    font-family: IRANSans;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.sp{
+    color: rgb(128, 2, 2);
+}
+ul{
+    list-style-type: none;
+}
+/* ----------------------------------nav------------------------------------- */
+.nav{
+    position: relative;
+    margin-top: 1vh;
+}
+.r-nav,
+.l-nav {
+    display: inline-block;
+    margin-top: -7.8vh;
+}
+.logo {
+    position: relative;
+    right: 4vw;
+}
+.nav,
+button,
+select,
+input,
+a {
+    background-color: #ffff;
+    border: none;
+    color: rgba(145, 145, 145, 1);
+}
+/* ---------------------r-nav--------------- */
+
+.r-nav {
+    position: absolute;
+    right: 10vw; 
+    top: 8.5vh;
+}
+.r-nav,form,input {
+    display: inline-block;
+}
+form>input {
+    background-color: rgba(145, 145, 145, .09);
+    width: 30vw;
+    height: 6vh;
+    border-radius: .8vh;
+    padding-right: 3.5vw;
+    margin-right: -1.8vw;
+}
+
+.r-nav,button,select{
+    margin-left: 2vw;
+}
+.r-nav>select,form{
+    margin-left: 3vw;
+    color: rgba(145, 145, 145, 1);
+}
+.r-nav button{
+    transition: color .2s ease-in-out;
+}
+.r-nav button:hover{
+    color: rgb(36, 35, 35);
+}
+.r-nav select{
+    transition: color .2s ease-in-out;
+}
+.r-nav select:hover{
+    color: rgb(36, 35, 35);
+}
+
+
+
+
+/* --------------------l-nav------------------- */
+.l-nav button{
+    transition: color 3s ease-in-out;
+}
+.l-nav button :hover{
+    color: rgb(36, 35, 35);
+}
+.l-nav{
+    position: absolute;
+    margin-right: 73vw;
+}
+.l-nav>button, a{
+    margin-left: .5vw;
+}
+.sabt>a {
+    background-color: #a62626;
+    color: #fff;
+    padding: 1.4vh;
+    border-radius: .5vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+}
+.l-nav,a{
+    font-size: 12px;
+}
+.l-nav,span,a{
+    margin-left: .5vw;
+}
+
+
+/* --------------------hr------------------- */
+.hr1 {
+    display: inline-block;
+    height: 1.6vw;
+    margin-bottom: 2.2vh;
+    margin-left: -2vw;
+    
+}
+.hr2 {
+    position: relative;
+    color: rgba(145, 145, 145, 1);
+    background-color: rgba(145, 145, 145, .1);
+    top: -1.4vh;
+}
+.hr11{
+    width: 15vw;
+    margin-right:-1vh;
+    margin-top: 3vh;
+    /* position: absolute; */
+    color: rgba(145, 145, 145, 1);
+}
+
+/* ------------------------------------side-bar------------------------------- */
+
+.side-bar {
+    direction: rtl;
+    margin-top: 1vw;
+    max-height: 76%;
+    position: relative;
+}
+
+.side-bar,p {
+    font-size: 11px;
+    margin-right: 2.2vw;
+    margin-top: 2vh;
+    color: rgba(30, 29, 29, 0.9);
+    position: absolute;    
+}
+
+.sidebar-content {
+    line-height: 5.3vh;
+    margin-top: 7vh;
+    margin-right: -2vh;
+}
+.sidebar-content ul li a{
+    transition: color .2s ease-in-out;
+}
+.sidebar-content ul li a:hover{
+    color: rgb(36, 35, 35);
+} 
+
+
+.sid2{
+    margin-right: 4.7vh;
+}
+.sid2,select,option{
+    color: black;
+}
+
+.sid3,a,p{
+    display: inline;
+    font-size: 10px;
+}
+
+.sid4{
+    margin-right: 9vh;
+}
+.sid5{
+    margin-right: 1vw;
+    margin-top: 5vh;
+}
+/* ----------------------------------------------divar-tehran---------------------------- */
+
+.divar-tehran {
+    position: relative;
+}
+.divar-tehran p {
+    font-size: 11px;
+    margin-right: 82vw;
+    margin-top: 4vh;
+    color: rgba(100, 100, 100, 0.9);
+}
+.divar-theran-line {
+    width: 72vw;
+    margin-right: 24vw;
+    margin-top: 2vw;
+}
+
+/* -------------------------------------boxs--------------------------------------- */
+
+.box-container {
+    width: 75%;
+    display: inline-block;
+}
+.box-1,.box-2,.box-3{
+    position: relative;
+}
+.box-body,.box-two-body,.box-three-body{
+    width: 50%;
+    margin-right: -4vh;
+    margin-top: 1vh;
+}
+.gheymat1{
+    position: relative;
+    font-size: 10px;
+    margin-right: -2.7vw;
+    top: 11vh;
+}
+.gheymat2 p{
+    font-size: 10px;
+    margin-right: -.5vw;
+    top: 14vh;
+}
+.gheymat3 p{
+    font-size: 10px;
+    margin-right:-.5vw;
+    top: 17vh;
+}
+.row-1 {
+    position: absolute;
+    left: 2.8vw;
+    top: 10vw;
+}
+.row-2{
+    position: absolute;
+    right: 49vw;
+    top: 10vw;
+}
+
+.row-3{
+    position: absolute;
+    right: 25vw;
+    top: 10vw;
+}
+.box-1 ,.box-2,.box-3, h4{
+    color: black;
+}
+.box-1 {
+    width: 23vw;
+    height: 23vh;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border:1px solid rgba(145, 145, 145,.4) ;
+    border-radius: .6vh;
+}
+.box-1 a img {
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+    border-radius: 3px;
+    margin-top: 1.5vh;
+    margin-right: 12.5vw;
+}
+
+
+.box-2{
+    width: 23vw;
+    height: 23vh;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border:1px solid rgba(145, 145, 145,.4) ;
+    border-radius: .6vh;
+}
+
+.box-2 a img{
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+    border-radius: 3px;
+    margin-top: 1.5vh;
+    margin-right: 12.5vw;
+}
+
+
+.box-3{
+    width: 23vw;
+    height: 23vh;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border:1px solid rgba(145, 145, 145,.4) ;
+    border-radius: .6vh;
+}
+
+.box-3 img{
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+    border-radius: 3px;
+    margin-top: 1.5vh;
+    margin-right: 12.5vw;
+}
+.box-body,.box-two-body,.box-three-body,h4{
+    position: absolute;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
